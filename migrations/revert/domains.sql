@@ -1,0 +1,9 @@
+
+BEGIN;
+
+ALTER TABLE "user"
+    ALTER COLUMN "email" TYPE TEXT;
+    
+DROP DOMAIN email;
+
+COMMIT;
