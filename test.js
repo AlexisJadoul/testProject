@@ -1,7 +1,7 @@
 const token = require('./app/utils/JWT');
 
 const user = {
-    id: 1,
+    id: 11,
     name: 'toto',
     email: 'toto@gmail.com',
     userType: 'player',
